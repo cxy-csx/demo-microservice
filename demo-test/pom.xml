@@ -17,18 +17,17 @@
 
     <packaging>pom</packaging>
 
-
+    <modules>
+        <module>demo-http-test</module>
+    </modules>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.csx</groupId>
-            <artifactId>demo-file-storage</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
+
     </dependencies>
 
 </project>

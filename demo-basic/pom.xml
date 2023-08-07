@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
 
     <modules>
-
+        <module>demo-http</module>
     </modules>
 
     <parent>
@@ -23,6 +23,20 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.csx</groupId>
+            <artifactId>model</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dtflys.forest</groupId>
+            <artifactId>forest-spring-boot-starter</artifactId>
+        </dependency>
 
     </dependencies>
 
