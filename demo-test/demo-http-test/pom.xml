@@ -4,15 +4,24 @@
     <modelVersion>4.0.0</modelVersion>
     <!--坐标-->
     <groupId>com.csx</groupId>
-    <artifactId>demo-file</artifactId>
+    <artifactId>demo-http-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-file</name>
-    <description>demo-file</description>
+    <name>demo-http-test</name>
+    <description>demo-http-test</description>
 
     <parent>
         <groupId>com.csx</groupId>
-        <artifactId>service</artifactId>
+        <artifactId>test</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.csx</groupId>
+            <artifactId>demo-http</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

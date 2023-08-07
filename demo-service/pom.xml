@@ -18,7 +18,7 @@
     <!--子模块-->
     <modules>
         <module>demo-author</module>
-        <module>demo-file</module>
+        <module>demo-file-storage</module>
     </modules>
 
     <packaging>pom</packaging>
