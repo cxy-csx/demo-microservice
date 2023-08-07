@@ -18,6 +18,7 @@
     <!--子模块-->
     <modules>
         <module>demo-author</module>
+        <module>demo-file</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -48,6 +49,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.xuyanwu</groupId>
+            <artifactId>spring-file-storage</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+
         </dependency>
 
         <!--服务注册中心-->

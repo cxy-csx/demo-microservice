@@ -23,6 +23,7 @@
         <module>demo-service</module>
         <module>demo-test</module>
         <module>demo-utils</module>
+        <module>demo-basic</module>
     </modules>
 
     <!--继承自SpringBoot工程-->
@@ -161,6 +162,23 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-gateway</artifactId>
                 <version>3.1.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.xuyanwu</groupId>
+                <artifactId>spring-file-storage</artifactId>
+                <version>0.7.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.qiniu</groupId>
+                <artifactId>qiniu-java-sdk</artifactId>
+                <version>7.11.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>2.6.13</version>
             </dependency>
 
         </dependencies>

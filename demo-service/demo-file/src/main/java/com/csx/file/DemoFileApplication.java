@@ -1,13 +1,15 @@
-package com.csx.test;
+package com.csx.file;
 
+import cn.xuyanwu.spring.file.storage.EnableFileStorage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoTestApplication {
+@EnableFileStorage
+public class DemoFileApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoTestApplication.class, args);
+        SpringApplication.run(DemoFileApplication.class, args);
     }
 
 }

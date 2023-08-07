@@ -4,10 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
     <!--坐标-->
     <groupId>com.csx</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>demo-basic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-test</name>
-    <description>demo-test</description>
+    <name>demo-basic</name>
+    <description>demo-basic</description>
+
+    <packaging>pom</packaging>
+
+    <modules>
+
+    </modules>
 
     <parent>
         <groupId>com.csx</groupId>
@@ -15,20 +21,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <packaging>pom</packaging>
-
-
-
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.csx</groupId>
-            <artifactId>demo-file-storage</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
+
     </dependencies>
+
 
 </project>
