@@ -1,8 +1,8 @@
 server:
-  port: 8081
+  port: 9003
 spring:
   application:
-    name: demo-admin-gateway
+    name: demo-file
   cloud:
     nacos:
       discovery:
@@ -10,3 +10,5 @@ spring:
       config:
         server-addr: 122.152.234.161:8848
         file-extension: yml
+
+

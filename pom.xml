@@ -16,7 +16,7 @@
 
     <!--子模块-->
     <modules>
-        <module>demo-api</module>
+        <module>demo-feigin-api</module>
         <module>demo-common</module>
         <module>demo-gateway</module>
         <module>demo-model</module>
@@ -93,7 +93,7 @@
 
             <dependency>
                 <groupId>com.csx</groupId>
-                <artifactId>api</artifactId>
+                <artifactId>feigin-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

@@ -19,7 +19,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>demo-web-gateway</module>
         <module>demo-admin-gateway</module>
+        <module>demo-mini-gateway</module>
     </modules>
 
     <dependencies>
